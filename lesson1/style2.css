@@ -1,0 +1,43 @@
+body {
+  font-family: arial, sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: url(images/background.jpg) no-repeat center top / cover;
+  background-color: rgba(0, 0, 0, 0.45);
+  background-blend-mode: darken;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding: 70px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p,
+li {
+  font-size: 14px;
+  padding: 0px;
+  margin: 3px;
+}
+
+.subscribe {
+  padding-top: 20px;
+}
+
+article {
+  text-align: left;
+  padding: 50px 100px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
