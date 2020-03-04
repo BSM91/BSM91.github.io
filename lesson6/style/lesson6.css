@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0 10%;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+header {
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+header h6 {
+    font-size: 12px;
+    color: rgb(137, 143, 153);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: rgb(14, 200, 203);
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.anchor,
+.diamond,
+.eyeglasses,
+.monitor {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 55px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: solid 1px #ececec;
+    background-color: #f7f7f7;
+    margin-bottom: 70px;
+}
+
+.anchor {
+    background-image: url(../icons/anchor_black.png);
+}
+
+.anchor:hover {
+    background-color: #0ec8cb;
+    color: white;
+    background-image: url(../icons/anchor.png);
+}
+
+.diamond {
+    background-image: url(../icons/diamond_black.png);
+}
+
+.diamond:hover {
+    background-color: #0ec8cb;
+    color: white;
+    background-image: url(../icons/diamond.png);
+}
+
+.eyeglasses {
+    background-image: url(../icons/eyeglasses_black.png);
+}
+
+.eyeglasses:hover {
+    background-color: #0ec8cb;
+    color: white;
+    background-image: url(../icons/eyeglasses.png);
+}
+
+.monitor {
+    background-image: url(../icons/monitor_black.png);
+}
+
+.monitor:hover {
+    background-color: #0ec8cb;
+    color: white;
+    background-image: url(../icons/monitor.png);
+}
+
+h4 {
+    margin-top: 176px;
+    margin-bottom: 55px;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+p {
+    padding: 0px 30px 80px 30px;
+    font-size: 14px;
+}
+
+
+
+
+  
+  
+  
+  
+  

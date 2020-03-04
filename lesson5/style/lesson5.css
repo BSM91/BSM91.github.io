@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+    padding: 90px;
+    margin: 0 5%;
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    padding: 0px 50px;
+}
+
+.box {
+    float: left;
+    width: 30%;
+}
+
+.Responsive_design,
+.Easy_customize,
+.Fast_reliable {
+    background-color: #3673b4;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 26px;
+    height: 26px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 50%;
+    border: solid 1px #3673b4;
+}
+
+
+.Responsive_design {
+    background-image: url(../icons/tablet.png);
+    
+}
+
+.Responsive_design:hover {
+    background-image: url(../icons/tablet_blue.png);
+    background-color: #fff;
+}
+
+.Easy_customize {
+    background-image: url(../icons/settings.png);
+}
+
+.Easy_customize:hover {
+    background-image: url(../icons/settings_blue.png);
+    background-color: #fff;
+}
+
+.Fast_reliable {
+    background-image: url(../icons/dashboard.png);
+}
+
+.Fast_reliable:hover {
+    background-image: url(../icons/dashboard_blue.png);
+    background-color: #fff;
+}
