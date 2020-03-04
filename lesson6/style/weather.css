@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in;
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #3399CC;
+    border: 20px solid #2B81AC;
+    min-height: 100%;
+    color: #FFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.header {
+    padding: 40px 0 20px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.footer {
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.city-list {
+    list-style-type: none;
+    font-size: 0;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+}
+
+.city-list:hover > li {
+    opacity: .6;
+}
+
+.city-list li {
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.city-list > li:hover {
+    opacity: 1;
+}
+
+.city-list li:nth-child(11n+1) {
+    background-color: #39C;
+}
+
+.city-list li:nth-child(11n+2) {
+    background-color: #33CCCC;
+}
+
+.city-list li:nth-child(11n+3) {
+    background-color: #996699;
+}
+
+.city-list li:nth-child(11n+4) {
+    background-color: #C24747;
+}
+
+.city-list li:nth-child(11n+5) {
+    background-color: #E2674A;
+}
+
+.city-list li:nth-child(11n+6) {
+    background-color: #FFCC66;
+}
+
+.city-list li:nth-child(11n+7) {
+    background-color: #99CC99;
+}
+
+.city-list li:nth-child(11n+8) {
+    background-color: #669999;
+}
+
+.city-list li:nth-child(11n+9) {
+    background-color: #CC6699;
+}
+
+.city-list li:nth-child(11n+10) {
+    background-color: #339966;
+}
+
+.city-list li:nth-child(11n) {
+    background-color: #666699;
+}
+
+.city-list li.single {
+    width: 25%;
+}
+
+.city-list li.double {
+    width: 50%;
+}
+
+.city-list li.triple {
+    width: 75%;
+}
+
+.city-list li.quadruple {
+    width: 100%;
+}
+
+.city-weather {
+    color: rgba(255,255,255,.7);
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+.city-weather i {
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 600px) {
+
+    .city-list li[class*='single'], 
+    .city-list li[class*='double'],
+    .city-list li[class*='quadruple'] {
+        width: 100%;
+    }
+
+    body {
+        border: none;
+        padding-bottom: 20px;
+    }
+}
