@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fdde7e;
+    color: #333;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item1, .item2, .item3 {
+    background-color: #fff;
+    text-align: center;
+    flex-basis: 360px;
+    height: 430px;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 30px;
+    box-shadow: 0 0px 4px 1px rgba(0, 0, 0, .10)
+}
+
+.item2 {
+    height: 500px;
+}
+
+.price1, .price2, .price3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #02995b;
+    padding-bottom: 20px;
+}
+
+.price2 {
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.item2 h2 {
+    padding-top: 40px;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .cards {
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 100%;
+    }
+
+    .item1, .item2, .item3 {
+        flex-basis: 400px;
+        height: 500px;
+    }
+}
+
+
+
+
+
