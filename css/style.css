@@ -1,54 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium:400,600&display=swap&subset=latin-ext');
+
 body {
+    background: #333;
+    font-family: 'Oxanium', cursive;
+}
+
+nav {
+    background: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.profile, .info {
+    padding: 20px;
+    color: #90d1ba;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.info h2 {
+    font-size: 24px;
     padding: 0;
     margin: 0;
-    line-height: 1;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
-    font-weight: normal;
-    text-align: center;
-    font-size: 36px;
-    padding: 30px 0px 0px 0px;
-    margin: 10px;
+.info p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    color: silver;
 }
 
-.subtitle {
-    font-weight: normal;
-    text-align: center;
-    font-size: 14px;
-    padding: 0px 0px 50px 0px;
-    margin: 10px;
+.profile_pic {
+    height: 80px;
+    border-radius: 82px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
-.home_works {
-    font-weight: normal;
-    text-align: left;
-    font-size: 24px;
+main {
+    padding: 0;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    width: 70%;
-    max-width: 600px;
-    margin: 0 auto;
+    width: 1400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#beetroot_img {
-    width: 100%;
+.container .card {
+    position: relative;
+    margin: 15px;
 }
 
-.lessons_list {
-    list-style-type: none;
+.container .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+    background: #ff0057;
+    transform: translateY(0);
+}
+
+.container .card .face.face1 .content {
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+    max-width: 128px;
+}
+
+.container .card .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.container .card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
     padding: 5px;
+    border: 1px solid #333;
 }
 
-.list_item {
-    padding: 20px 0px;
-    font-size: 18px;
-    border-bottom: 1px solid #000;
-    text-decoration: none;
+.lesson {
+    width: 280px;
+    height: 130px;
 }
 
-.list_item a {
-    text-decoration: none;
+.container .card .face.face2 .content a:hover {
+    background: #333;
+    color: #fff;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 20px;
+    color: silver;
+}
+
+
+
