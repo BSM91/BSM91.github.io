@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: 'Lato', sans-serif;
+    margin: 100px auto;
+}
+
+header {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 5.44px;
+    color: #3c3c3c;
+    padding: 10px;
+}
+
+.line {
+    width: 45px;
+    height: 4px;
+    background-color: #dddbdb;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin: 40px auto 60px;
+    width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 15px;
+    position: relative;
+}
+
+.box .content h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.box .content p {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.social {
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 2px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 81%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00aed9;
+  }
+
+  .image:hover .overlay {
+    opacity: 1;
+  }
+
+ 
+
+

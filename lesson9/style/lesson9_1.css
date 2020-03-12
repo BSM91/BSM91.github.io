@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b07cf7;
+    font-family: Raleway;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    width: 100%;
+    font-size: 90px;
+    font-weight: bold;
+    padding: 50px 50px 30px;
+}
+
+p {
+    width: 580px;
+    font-size: 17px;
+    font-weight: 300px;
+    line-height: 1.47;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    width: 370px;
+    height: 310px;
+    position: relative;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 15px;
+}
+
+.container .box .date .number {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.container .box .date .month {
+    font-size: 21px;
+    font-weight: 900;
+    color: white;
+}
+
+.container .box .date {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, .5);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.box1 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(../images/box1.jpg);
+}
+
+.box2 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(../images/box2.jpg);
+}
+
+.box3 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(../images/box3.jpg);
+}
+
+.container .box h2 {
+    font-size: 20px;
+    text-align: left;
+    width: 340px;
+    padding-top: 210px;
+    padding-left: 20px;
+}
+
+.container .box p {
+    font-size: 13px;
+    text-align: left;
+    width: 340px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+button {
+    margin: 50px;
+    padding: 20px 45px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    color: white;
+    border: 0;
+    font-family: Raleway;
+}
+
+
