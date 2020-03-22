@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.our-services {
+    background-color: #70bfff;
+    font-family: Raleway;
+}
+
+.services-container {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+.list h3 {
+    display: block;
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.list img {
+    padding-left: 0px;
+    border-left: 1px solid #9d9d9d;
+    padding: 20px;
+    width: 100px;
+    height: 82px;
+}
+
+.heading {
+    background-image: url(../images/tomatos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading h2 {
+    font-size: 90px;
+    color: white;
+    padding: 200px 50px;
+}
