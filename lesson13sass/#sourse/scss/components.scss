@@ -1,0 +1,31 @@
+%team__title {
+    font-family: $font-main;
+    font-weight: 900;
+}
+
+.team__title-1 {
+    @extend %team__title;
+    font-size: 60px;
+    color: $color-main;
+}
+
+.team__title-2 {
+    @extend %team__title;
+    font-size: 36px;
+    color: $color-minor;
+    letter-spacing: 0.72px;
+}
+
+.btn {
+    font-family: $font-other;
+    font-size: 14px;
+    font-weight: 700;
+    color: $color-other;
+    border: 1px solid $color-main;
+    background-color: transparent;
+
+    &:hover {
+        background-color: $color-main;
+        color: #fff;
+    }
+}

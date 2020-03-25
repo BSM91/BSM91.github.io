@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:400,500|Roboto:900&display=swap');
+
+/* FONTS */
+
+$font-main: 'Roboto', sans-serif;
+$font-minor: 'Raleway', sans-serif;
+$font-other: 'Open Sans', sans-serif;
+
+/* COLOURS */
+
+$color-main: #ffcc00;
+$color-minor: #333;
+$color-other: #666;
+
+body {
+    font-family: $font-minor;
+    color: $color-minor;
+    font-weight: 500;
+}
+
+::selection {
+    background-color: $color-main;
+    color: $color-minor;
+}
