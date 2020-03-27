@@ -1,0 +1,63 @@
+.about {
+    color: white;
+    background-image: radial-gradient(circle at 0 0, #00c4c4, #00b7b7, #00adad, #009c9c), linear-gradient(to bottom, #00c4c4, #00c4c4);
+
+    .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .about-image {
+            width: auto;
+
+            @media screen and (max-width: 1000px) {
+                width: 50%;
+            }
+
+            @media screen and (max-width: 900px) {
+                display: none;
+            }
+        }
+
+        .about-us {
+            padding: 30px 20px;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 90px;
+                padding: 5px;
+
+                @media screen and (max-width: 900px) {
+                    font-size: 60px;
+                    text-align: center;
+                }
+    
+                @media screen and (max-width: 360px) {
+                    font-size: 40px;
+                    text-align: center;
+                }
+            }
+
+            p {
+                max-width: 520px;
+                padding: 20px;
+                font-size: 17px;
+                font-weight: 300;
+                line-height: 1.59;
+                opacity: .8;
+
+                @media screen and (max-width: 900px) {
+                    text-align: center;
+                }
+    
+                @media screen and (max-width: 360px) {
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }     
+        }
+   }
+}

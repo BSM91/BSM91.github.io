@@ -1,0 +1,94 @@
+.services {
+  background-color: #70bfff;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+
+    @media screen and (max-width: 900px) {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      padding-bottom: 50px;
+      width: 80%;
+    }
+  }
+
+  &__item {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 450px) {
+      max-width: 280px;
+      margin: 10px auto;
+    }
+
+    & h3 {
+      display: block;
+      width: 400px;
+      text-align: center;
+      font-size: 18px;
+      padding: 20px;
+
+      @media screen and (max-width: 450px) {
+        font-size: 15px;
+        padding: 0px 10px;
+      }
+    }
+
+    & img {
+      padding-left: 0px;
+      border-left: 1px solid #000;
+      padding: 20px;
+      width: 100px;
+      height: 82px;
+
+      @media screen and (max-width: 450px) {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+      }
+    }
+  }
+
+  &__heading {
+    background-image: url(../img/services-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 900px) {
+      background-image: none;
+    }
+
+    & h2 {
+      font-size: 90px;
+      color: white;
+      padding: 220px 20px;
+
+      @media screen and (max-width: 900px) {
+        font-size: 60px;
+        text-align: center;
+        padding: 50px 20px 20px;
+      }
+
+      @media screen and (max-width: 360px) {
+        font-size: 40px;
+      }
+    }
+  } 
+}
