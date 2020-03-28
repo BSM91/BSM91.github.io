@@ -379,6 +379,7 @@ header .header__scroll {
 .gallery__heading {
   max-width: 1200px;
   text-align: center;
+  margin: 0 auto;
 }
 .gallery__heading h2 {
   font-size: 90px;
