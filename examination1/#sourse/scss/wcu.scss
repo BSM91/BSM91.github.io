@@ -1,0 +1,100 @@
+.wcu {
+    background-image: url(../img/wcu-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Aleo', serif;
+    padding: 0px 10px;
+
+    .container {
+        display: flex;
+        justify-content: left;
+        align-items: start;
+
+        @media screen and (max-width: 1149px) {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            }
+    }
+
+    &__info {
+
+        h2 {
+            font-size: 36px;
+            font-weight: normal;
+            padding-top: 198px;
+            padding-bottom: 52px;
+
+            @media screen and (max-width: 1149px) {
+                padding-top: 100px;
+            }
+
+            @media screen and (max-width: 599px) {
+                font-size: 24px;
+            }
+        }
+
+        p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            letter-spacing: 0.54px;
+            line-height: 1.63;
+            color: #e8e8e8;
+            width: 530px;
+            padding-bottom: 30px;
+
+            @media screen and (max-width: 599px) {
+                font-size: 14px;
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        button {
+            width: 225px;
+            height: 60px;
+            margin-top: 14px;
+            font-size: 16px;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 1.6px;
+            background-color: #5474fd;
+            border: none;
+            color: white;
+
+            @media screen and (max-width: 1149px) {
+                margin-bottom: 100px;
+                }
+
+            @media screen and (max-width: 599px) {
+                width: 160px;
+                height: 40px;
+                font-size: 14px;
+                margin: 0 auto 100px;
+            }
+
+            &:hover {
+                background-color: #435dcf;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .pics {
+
+        @media screen and (max-width: 1149px) {
+            display: none;
+            }
+        
+        .pic1 {
+            padding-top: 120px;
+            padding-left: 105px;
+        }
+
+        .pic2 {
+            padding-left: 230px;
+            padding-bottom: 116px;
+        }
+    }
+}

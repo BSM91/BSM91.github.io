@@ -1,0 +1,96 @@
+.service {
+    background-image: url(../img/service-background.svg);
+    background-position: center 45px;
+    background-repeat: no-repeat;
+    background-color: #333;
+    font-family: 'Aleo', serif;
+    padding: 25px;
+
+    @media screen and (max-width: 1149px) {
+        background-image: none;
+        }
+
+    @media screen and (max-width: 399px) {
+        padding: 0px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__box {
+        padding: 68px;
+
+        @media screen and (max-width: 1149px) {
+            padding: 10px;
+        }
+
+        i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 72px;
+            width: 80px;
+            margin: 0 auto;
+            background-color: #333;
+            padding-bottom: 19px;
+
+            @media screen and (max-width: 999px) {
+                font-size: 60px;
+                width: auto;
+            }
+
+            @media screen and (max-width: 699px) {
+                font-size: 40px;
+            }
+
+            @media screen and (max-width: 499px) {
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: 399px) {
+                font-size: 24px;
+    
+            }
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal; 
+            color: #e8e8e8;
+            padding-bottom: 15px;
+
+            @media screen and (max-width: 999px) {
+                font-size: 24px;
+            }
+
+            @media screen and (max-width: 699px) {
+                font-size: 16px;
+            }
+
+            @media screen and (max-width: 499px) {
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 399px) {
+                font-size: 11px;
+            }
+        }
+
+        .icon-search {
+            color: #5474fd;
+        }
+
+        .icon-check {
+            color: #ff6363;
+        }
+
+        .icon-like {
+            color: #00a2ff;
+        }
+    }
+}
