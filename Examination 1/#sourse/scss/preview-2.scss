@@ -1,0 +1,90 @@
+.preview-2 {
+    background-image: url(../img/preview-2-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Josefin Sans', sans-serif;
+
+    .container {
+        padding: 230px 10px 100px 570px;
+
+        @media screen and (max-width: 1149px) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 10px;
+        }
+    }
+
+    &__box {
+        width: 540px;
+        padding: 50px 30px;
+        background-color: rgba($color: #232323, $alpha: .9);
+
+        @media screen and (max-width: 599px) {
+            width: 90%;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            font-weight: normal;
+            letter-spacing: 0.4px;
+            color: #e8e8e8;
+            padding-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: -0.9px;
+            padding-bottom: 22px;
+
+            @media screen and (max-width: 599px) {
+                font-size: 16px;
+            }
+        }
+
+        .info {
+            width: 478px;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.63;
+            letter-spacing: -1.07px;
+            color: #e8e8e8;
+            padding-bottom: 42px;
+
+            @media screen and (max-width: 599px) {
+                font-size: 14px;
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        button {
+            width: 225px;
+            height: 60px;
+            font-size: 16px;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 1.6px;
+            background-color: #5474fd;
+            border: none;
+            color: white;
+
+            @media screen and (max-width: 599px) {
+                width: 160px;
+                height: 40px;
+                font-size: 14px;
+                margin: 0 auto;
+            }
+
+            &:hover {
+                background-color: #435dcf;
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,116 @@
+.wots {
+    background-image: url(../img/wots-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 115px 10px 200px;
+
+    @media screen and (max-width: 1149px) {
+        padding: 100px 10px;
+    }
+
+    .container {
+
+        @media screen and (max-width: 1149px) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        h2 {
+            width: 100%;
+            font-family: 'Aleo', serif;
+            font-size: 36px;
+            font-weight: normal;
+            letter-spacing: 0.4px;
+            text-align: center;
+            color: white;
+            text-align: center;
+            padding-bottom: 90px;
+
+            @media screen and (max-width: 599px) {
+                font-size: 24px;
+            }
+        }
+    }
+
+    &__block {
+        margin: 0 auto;
+        
+        &_pic {
+            float: left;
+
+            @media screen and (max-width: 1149px) {
+                display: none;
+            }
+        }
+
+        &_content {
+            width: 1110px;
+            height: 284px;
+            padding: 50px 55px 50px 505px;
+            background-color: #333333;
+
+            @media screen and (max-width: 1149px) {
+                padding: 50px;
+                width: 540px;
+                position: relative;
+            }
+
+            @media screen and (max-width: 599px) {
+                width: 90%;
+                height: auto;
+                margin: 0 auto;
+            }
+
+            h3 {
+                font-size: 20px;
+                font-weight: normal;
+                text-transform: uppercase;
+                letter-spacing: -1px;
+                color: #fefefe;
+                padding-bottom: 30px;
+
+                @media screen and (max-width: 599px) {
+                    font-size: 16px;
+                    padding-bottom: 50px;
+                }
+            }
+
+            .icon-quote-left {
+                font-size: 22px;
+                color: #5474fd;
+
+                @media screen and (max-width: 1149px) {
+                    position: absolute;
+                    left: 50px;
+                    top: 75px;
+                }
+
+                @media screen and (max-width: 599px) {
+                    font-size: 16px;
+                    top: 96px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 1.63;
+                letter-spacing: -1.04px;
+                color: #e8e8e8;
+                margin-top: -10px;
+
+                @media screen and (max-width: 599px) {
+                    font-size: 14px;
+                }
+
+                &:before {
+                    content: "";
+                    padding-left: 26px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+footer {
+    background-color: #232323;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 123px 10px 50px;
+
+    .logo {
+        font-size: 24px;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        color: white;
+        padding-bottom: 10px;
+
+        @media screen and (max-width: 599px) {
+            font-size: 20px;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: .5px;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 30px;
+
+        @media screen and (max-width: 599px) {
+            font-size: 13px;
+        }
+    }
+
+    .social {
+        width: 166px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    i:hover {
+        cursor: pointer;
+        color: #5474fd;
+    }
+}
