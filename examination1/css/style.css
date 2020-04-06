@@ -117,12 +117,8 @@ header {
       font-weight: normal;
       letter-spacing: 2px;
       margin: 120px auto 4px; }
-      header .header .scroll-down:hover {
-        cursor: pointer; }
     header .header .icon-angle-down {
       font-size: 24px; }
-      header .header .icon-angle-down:hover {
-        cursor: pointer; }
 
 .navigation {
   background-color: #5474fd;
