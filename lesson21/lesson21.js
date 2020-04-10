@@ -42,7 +42,7 @@ let money = prompt(`Скільки у вас є грошей?`);
 let price = prompt(`скільки коштує одна шоколадка?`);
 let buy = Math.floor(money / price);
 alert(`Ви можете купити ${buy} шоколадок`);
-alert(`У вас залишиться ${money - (buy * chokoPrice)} грошей.`);
+alert(`У вас залишиться ${money - (buy * price)} грошей.`);
 
 
 // Завдання 9
