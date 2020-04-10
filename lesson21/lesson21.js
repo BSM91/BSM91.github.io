@@ -42,19 +42,17 @@ let money = prompt(`Скільки у вас є грошей?`);
 let price = prompt(`скільки коштує одна шоколадка?`);
 let buy = Math.floor(money / price);
 alert(`Ви можете купити ${buy} шоколадок`);
-alert(`У вас залишиться ${money - (buy * chokoPrice)} шрошей.`);
+alert(`У вас залишиться ${money - (buy * chokoPrice)} грошей.`);
 
 
 // Завдання 9
-let number = 0, result = 0;
-number = prompt(`Введіть тризначне число.`);
+let number = prompt(`Введіть тризначне число.`);
 
-while (number > 0) {
-    result = result * 10 + number % 10;
-    number = Math.floor(number / 10);
-}
+let firstNumber = number%10;
+let secondNumber = (number%100 - firstNumber)/10;
+let thirdNumber = (number - number%100)/100;
 
-alert(`Твоє число задом наперед ${result}.`);
+alert(`Твоє число задом наперед ${firstNumber} ${secondNumber} ${thirdNumber}.`);
 
 
 // Завдання 10
