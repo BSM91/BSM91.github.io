@@ -91,11 +91,11 @@ if (year%4 == 0 && year %100 !== 0) {
 /* Завдання 5 - Запросить у пользователя пятиразрядное число и определить, является ли оно палиндромом. */
 
 
-let number = prompt('Введіть число від 10000 до 99999');
+let numb = prompt('Введіть число від 10000 до 99999');
 
-number = number + '';
+numb = numb + '';
 
-if (number === number.split('').reverse().join('')) {
+if (numb === numb.split('').reverse().join('')) {
     alert ('Ваше число палінбром');
 } else {
     alert ('Ваше число не палінбром');
