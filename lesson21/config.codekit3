@@ -4,320 +4,29 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "B9B100B8-4891-49C4-9980-B7EB14652EE4"
+		"uuidString": "ACFE06BD-16EF-4AEF-BA1E-8180C5A99B91"
 		}
 	],
 "creatorBuild": "32001",
 "files": {
-	"/#sourse/scss/base.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/base.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/footer.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/header.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/navigation.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/preview-1.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/preview-1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/preview-2.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/preview-2.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/service.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/service.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/style.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/testimonials.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/testimonials.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#sourse/scss/wcu.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/css/wcu.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/fonts/icons.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/fonts/icons-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/fonts/icons.eot": {
+	"/lesson21.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/icons.eot",
+		"oAP": "/lesson21.html",
 		"oF": 0
 		},
-	"/fonts/icons.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/lesson21.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "/fonts/icons.ttf",
-		"oF": 0
-		},
-	"/fonts/icons.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/icons.woff",
-		"oF": 0
-		},
-	"/img/favicon.png": {
-		"ft": 32768,
-		"iS": 20941,
-		"oA": 0,
-		"oAP": "/img/favicon.png",
+		"oAP": "/lesson21-min.js",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/header-background.jpg": {
-		"ft": 16384,
-		"iS": 966485,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/header-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/preview-1-background.jpg": {
-		"ft": 16384,
-		"iS": 680583,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/preview-1-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/preview-2-background.jpg": {
-		"ft": 16384,
-		"iS": 682693,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/preview-2-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/service-background.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/service-background.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/wcu-background.jpg": {
-		"ft": 16384,
-		"iS": 171302,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/wcu-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/wcu-img-1.jpg": {
-		"ft": 16384,
-		"iS": 85366,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/wcu-img-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/wcu-img-2.jpg": {
-		"ft": 16384,
-		"iS": 85309,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/wcu-img-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/wots-background.jpg": {
-		"ft": 16384,
-		"iS": 158127,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/wots-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/wots-sam-sumon.jpg": {
-		"ft": 16384,
-		"iS": 54494,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/wots-sam-sumon.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/Travel More.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Travel More.psd",
-		"oF": 0
-		},
-	"/Travel-More.jpg": {
-		"ft": 16384,
-		"iS": 917518,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Travel-More.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"sC": 3,
+		"tS": 0
 		}
 	},
 "hooks": [
@@ -325,10 +34,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 607668512.428545,
-	"displayValue": "examination1",
+	"creationDate": 608365901.34670603,
+	"displayValue": "lesson21",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-peach",
+	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -819,7 +528,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -1199,7 +908,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1251,7 +960,7 @@
 			},
 		"no-invalid-this": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'capIsConstructor': true}"
 			},
 		"no-irregular-whitespace": {
 			"active": 1,
@@ -1499,7 +1208,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -1523,7 +1232,7 @@
 			},
 		"no-unsafe-negation": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForOrderingRelations': false}"
 			},
 		"no-unused-expressions": {
 			"active": 0,
@@ -1551,7 +1260,7 @@
 			},
 		"no-useless-computed-key": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
 			"active": 0,
@@ -1795,7 +1504,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
@@ -1829,7 +1538,7 @@
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
-	"hideConfigFile": 1,
+	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -2201,7 +1910,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -2345,15 +2054,15 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "build/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 1,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
