@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cвітлофор</title>
+  <style>
+    html, body{
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+ 
+    h1 {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+    }
+ 
+    .block {
+      height: 600px;
+      width: 200px;
+      border: 3px solid black;
+      border-radius: 30px;
+      padding: 20px;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to bottom, #8C1B1B, #490E0E)
+    }
+ 
+    .light {
+      width: 170px;
+      height: 170px;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      background: #B8B8B8;
+    }
+ 
+    .light:hover {
+      cursor: pointer;
+    }
+ 
+    .stick {
+      position: absolute;
+      bottom: -56px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 30px;
+      height: 50px;
+      border: 3px solid black;
+      border-top: 3px solid #490E0E;
+      border-bottom: 3px solid #490E0E;
+      background: #490E0E;
+    }
+  </style>
+</head>
+<body>
+  <h1>Поклікайте на круги</h1>
+  <div class="block">
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="stick"></div>
+  </div>
+ 
+  <script>
+    let lights = document.getElementsByClassName('light')
+    let red = lights[0]
+    let yellow = lights[1]
+    let green = lights[2]
+    let body111 = document.getElementsByTagName('body')
+ 
+    function fooRed() {
+      this.style.background = 'red'
+      yellow.style.background = ''
+      green.style.background = ''
+    }
+ 
+    function fooYellow() {
+      this.style.background = 'yellow'
+      red.style.background = ''
+      green.style.background = ''
+    }
+ 
+    function fooGreen() {
+      this.style.background = 'green'
+      yellow.style.background = ''
+      red.style.background = ''
+    }
+ 
+    red.addEventListener('click', fooRed)
+    yellow.addEventListener('click', fooYellow)
+    green.addEventListener('click', fooGreen)
+  </script>
+</body>
+</html>
