@@ -64,6 +64,7 @@ $(document).ready(function() {
           centerMode:true,
           centerPadding:"0",
           adaptiveHeight: true,
+          autoplay: true,
           nextArrow: '<div class="next-pic"><img src="img/next_pic.png" alt="Next Picture"></div>',
           prevArrow: '<div class="prev-pic"><img src="img/prev_pic.png" alt="Previous Picture"></div>',
           responsive: [
